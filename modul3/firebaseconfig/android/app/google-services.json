@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "826241709934",
+    "project_id": "modul3codelab",
+    "storage_bucket": "modul3codelab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826241709934:android:58303b82494bb8a9db337f",
+        "android_client_info": {
+          "package_name": "com.example.firebaseconfig"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7Rbs2oKzUSTsYY130KZeTT9cKcdoJft0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826241709934:android:f71e8b1a0a48c942db337f",
+        "android_client_info": {
+          "package_name": "com.modul3.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7Rbs2oKzUSTsYY130KZeTT9cKcdoJft0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
