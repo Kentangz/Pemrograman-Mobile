@@ -30,6 +30,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  geolocator: ^11.1.0 # mendapatkan data lokasi
+  geocoding: ^3.0.0 # mengonversi alamat ke koordinat
+  permission_handler: ^10.4.1  # mengelola izin akses lokasi
+  #Google Maps
+  google_maps_flutter: # menampilkan peta Google Maps
+  url_launcher: ^6.1.5 # membuka URL di browser atau aplikasi lain
 
 
   # The following adds the Cupertino Icons font to your application.
