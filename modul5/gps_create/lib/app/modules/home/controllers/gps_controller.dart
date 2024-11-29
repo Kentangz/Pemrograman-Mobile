@@ -59,9 +59,10 @@ class GPSController extends GetxController {
 
           // Menambahkan informasi lengkap dengan koma sebagai pemisah
           locationMessage.value = '''
-Hai kamu lagi di ${place.subLocality ?? "Desa"}, 
+Hai, kamu lagi di ${place.subLocality ?? "Desa"}, 
 ${place.locality ?? "Kecamatan"}, 
-${place.administrativeArea ?? "Kota/Kabupaten"}, 
+${place.subAdministrativeArea ?? "Kabupaten"},
+${place.administrativeArea ?? "Provinsi"}, 
 ${place.country ?? "Negara"}.
 
 Titik Koordinat: 
